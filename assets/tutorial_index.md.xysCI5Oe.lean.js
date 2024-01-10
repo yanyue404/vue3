@@ -1,0 +1,7 @@
+import{_ as e,G as t,c as a,j as o,w as r,n as s,o as l,H as n}from"./chunks/framework.eLjRmN09.js";import{R as i}from"./chunks/ReplLoading.ztSzyqvX.js";const u={components:{TutorialRepl:t({loader:()=>n((()=>import("./chunks/TutorialRepl.elwIOUqg.js")),__vite__mapDeps([0,1,2,3,4,5,6])),loadingComponent:i})}},d=JSON.parse('{"title":"教程","description":"","frontmatter":{"page":true,"title":"教程","sidebar":false,"aside":false,"footer":false,"returnToTop":false},"headers":[],"relativePath":"tutorial/index.md","filePath":"tutorial/index.md"}');const p=e(u,[["render",function(e,t,n,i,u,d){const p=s("TutorialRepl"),f=s("ClientOnly");return l(),a("div",null,[o(f,null,{default:r((()=>[o(p)])),_:1})])}]]);export{d as __pageData,p as default};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/chunks/TutorialRepl.elwIOUqg.js","assets/chunks/utils.D6g6xS_A.js","assets/chunks/framework.eLjRmN09.js","assets/chunks/PreferenceSwitch.p4yVISKz.js","assets/chunks/VPApp.vue_vue_type_style_index_0_scoped_dd5db050_lang.d8Xe0uuv.js","assets/chunks/VTLink.vue_vue_type_script_setup_true_lang.fLW4ej0d.js","assets/chunks/VTIconChevronLeft.eio_VcVQ.js"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
