@@ -12,7 +12,8 @@
     "zhlint": "zhlint 'src/{api,about,guide,sponsor,translations,tutorial}/**/*.md'",
     "clean": "rm -rf .vitepress/dist",
     "sync": "node scripts/sync.js",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "@vue/repl": "^3.0.0",
